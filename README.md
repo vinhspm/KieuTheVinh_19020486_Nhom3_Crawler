@@ -10,5 +10,7 @@ Mô tả source code:
 	+dantri.com.vn : link,tiêu đề,mô tả, tác giả, tags, thời gian đăng. Số lượng thu được trong 1h: 20525
 	+fptplay.vn : link, tên phim, tóm tắt, đạo diễn, diễn viên. Số lượng thu được trong 1h: 3751
 	+thegioididong.com : link, tag, giá sản phẩm, image-src, thông số. Số lượng thu được sau 1h: 
+
 Note: thegioididong.com đã chặn ip do crawl quá nhiều, khi bật vpn thì crawl được bình thường, vì một lý do nào đó mà 
-get status 200 về rất nhiều nhưng số lượng sản phẩm ghi lên file lại rất ít, em sẽ cố gắng sửa lỗi và thử làm trên trang thương mại điện tử khác
+get status 200 về rất nhiều nhưng số lượng sản phẩm ghi lên file lại rất ít, trong đó có phần redirect(302) cũng xuất hiện nhiều tương đương với get(200)
+em sẽ cố gắng sửa lỗi và thử làm trên trang thương mại điện tử khác
